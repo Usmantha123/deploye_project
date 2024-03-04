@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form</title>
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
     <form action=""></form>
-    <div>
+ <diV class="container">  
 <h1>Event Registration form</h1>
-<div>
+
 <label for="text">First Name :</label>
-<input type="text" name="first name" size="30"><br><br>
+<input type="text" name="first name" size="30" placeholder="Fisrt Name"><br><br>
 <label for="text">last name :</label>
 <input type="text" name="last name" size="30"><br><br>
 <label for="text">Compnay Name :</label>
@@ -23,16 +24,22 @@
 <label for="text">Subject :</label>
 <input type="text" name="Subject" size="30">
 <h4>Are you existing customer :</h4>
-<input type="radio" id="yes" >
-  <label for="yes">yes</label><br>
-  <input type="radio" id="NO" >
-  <label for="NO">NO</label><br><br>
 
-<input type="submit" style="background-color: brown; color: white;">
+  <div class="radio-container">
+    <input type="radio" id="yes" name="customer" />
+    <label for="yes">Yes</label>
+</div>
+<div class="radio-container">
+    <input type="radio" id="no" name="customer" />
+    <label for="no">No</label>
+</div>
 
+
+<input type="submit" style="background-color: brown; color: white;"><br><br>
+ <a href="index.html">back to Home</a>
 
 </div>
-            
-    <a href="index.html"></a>
+    
+
 </body>
 </html>
