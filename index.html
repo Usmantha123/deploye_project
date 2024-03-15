@@ -1,74 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
-    <link rel="stylesheet" href="portfolio.html">
-    <link rel="stylesheet" href="my project.html">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="portfolio.html" />
+    <link rel="stylesheet" href="my project.html" />
     <style>
-        table,tr,td,th{
-            border: 2px solid black;
-            border-collapse: collapse;
-        }
+      table,
+      tr,
+      td,
+      th {
+        border: 2px solid black;
+        border-collapse: collapse;
+      }
+      img{
+        border-radius: 50%;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-    <h1 style="background-color: brown;">MY portfolio</h1>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <a href="index.html">My portfolio</a>
+      </div>
+      <div class="elements">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="my project.html">my projects</a>
+        <a href="my skills.html">skills</a>
+      </div>
+    </div>
     <h1>Home Page</h1>
-    <img src="image/Talha usman.jpg" alt="Talha Usman" width="100px" height="100px">
-    <h1> Talha Usman</h1>
-    <p>i am Talha usman Bs software engineering student of islamia college peshawar university now i am in 7th semester.</p>
+    
+    <img
+      src="image/Talha usman.jpg"
+      alt="Talha Usman"
+      width="100px"
+      height="100px"
+      
+    />
+    <h1>Talha Usman</h1>
+    <audio id="audioElement" controls>
+      <source src="./image/voice.mp4" type="audio/mpeg">
+     
+  </audio>
+    <p>
+      i am Talha usman Bs software engineering student of islamia college
+      peshawar university now i am in 7th semester.
+    </p>
     <h3>My Education</h3>
     <ol>
-        <li>
-            <h4>Matric</h4>
-            <a href="https://www.facebook.com/profile.php?id=100057349364675&mibextid=LQQJ4d"> My school link</a>
-        </li>
-        <li>
-            <h4>FSC</h4>
-            <a href="https://www.facebook.com/profile.php?id=100057349364675&mibextid=LQQJ4d"> My College link</a>
-        </li>
-        <li>
-            <h4>DIT</h4>
-            <a href="https://www.facebook.com/bluebirdinstituteofit?mibextid=ZbWKwL"> My DIT link</a>
-        </li>
-        
+      <li>
+        <h4>Matric</h4>
+        <a
+          href="https://www.facebook.com/profile.php?id=100057349364675&mibextid=LQQJ4d"
+        >
+          My school link</a
+        >
+      </li>
+      <li>
+        <h4>FSC</h4>
+        <a
+          href="https://www.facebook.com/profile.php?id=100057349364675&mibextid=LQQJ4d"
+        >
+          My College link</a
+        >
+      </li>
+      <li>
+        <h4>DIT</h4>
+        <a
+          href="https://www.facebook.com/bluebirdinstituteofit?mibextid=ZbWKwL"
+        >
+          My DIT link</a
+        >
+      </li>
     </ol>
-    <h3>Education in Table </h3>
+    <h3>Education in Table</h3>
     <table>
-        <tbody>
-            <th>level</th>
-            <th>school & college</th>
-        
-        <tr>
-            <td>SSC (MATRIC)</td>
-            <td> Govt higher school doaba </td>
+      <tbody>
+        <th>level</th>
+        <th>school & college</th>
 
+        <tr>
+          <td>SSC (MATRIC)</td>
+          <td>Govt higher school doaba</td>
         </tr>
         <tr>
-            <td>HSSC (Inter)</td>
-            <td> Govt Higher secondry college doaba</td>
-
+          <td>HSSC (Inter)</td>
+          <td>Govt Higher secondry college doaba</td>
         </tr>
         <tr>
-            <td>DIT</td>
-            <td>Blue Bird Institute Doaba </td>
+          <td>DIT</td>
+          <td>Blue Bird Institute Doaba</td>
         </tr>
         <tr>
-            <td>Bs Software Engineering</td>
-            <td>Islamia College Peshawar university</td>
+          <td>Bs Software Engineering</td>
+          <td>Islamia College Peshawar university</td>
         </tr>
-    </tbody>
+      </tbody>
     </table>
     <h3>Age : 22</h3>
-    <a href="my project.html">my projects</a><br>
+    <!-- <a href="my project.html">my projects</a><br>
     <a href="contact.html">Contact</a><br>
     <a href="my skills.html">skills</a><br>
-    <a href="index.html">Home</a><br>
-    <a href="form.html">form</a>
-
-
-</body>
+    <a href="index.html">Home</a><br> -->
+  </body>
 </html>

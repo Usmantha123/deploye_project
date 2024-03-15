@@ -1,0 +1,32 @@
+body {
+}
+
+.navbar {
+  background-color: black;
+  display: flex;
+  padding: 10px;
+}
+
+.navbar .logo a {
+  margin-right: 50px;
+  color: white;
+  text-decoration: none;
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+.navbar .elements{
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+  
+}
+.navbar .elements a {
+  margin-right: 50px;
+  color: white;
+  text-decoration: none;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  margin-top: 10px;
+}
